@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import mermaid from 'mermaid'
+// import mermaid from 'mermaid'
 
 @Component({
   selector: 'app-root',
@@ -10,9 +10,9 @@ export class AppComponent implements OnInit {
   title = 'angular-test';
 
   ngOnInit() {
-    mermaid.init();
-    mermaid.initialize({
-      securityLevel: 'loose'
-    });
+    // mermaid.init();
+    // mermaid.initialize({
+    //   securityLevel: 'loose'
+    // });
   }
 }
