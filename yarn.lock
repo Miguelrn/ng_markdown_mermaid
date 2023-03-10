@@ -1697,7 +1697,7 @@
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
   "version" "7.0.11"
 
-"@types/marked@^4.0.3":
+"@types/marked@^4.0.3", "@types/marked@^4.0.8":
   "integrity" "sha512-HVNzMT5QlWCOdeuBsgXP8EZzKUf0+AXzN+sLmjvaB3ZlLqO+e4u0uXrdw9ub69wBKFs+c6/pA4r9sy6cCDvImw=="
   "resolved" "https://registry.npmjs.org/@types/marked/-/marked-4.0.8.tgz"
   "version" "4.0.8"
@@ -2959,7 +2959,7 @@
     "d3-selection" "2 - 3"
     "d3-transition" "2 - 3"
 
-"d3@^7.0.0", "d3@^7.4.0", "d3@^7.8.2":
+"d3@^7.4.0", "d3@^7.8.2":
   "integrity" "sha512-WXty7qOGSHb7HR7CfOzwN1Gw04MUOzN8qh9ZUsvwycIMb4DYMpY9xczZ6jUorGtO6bR9BPMPaueIKwiDxu9uiQ=="
   "resolved" "https://registry.npmjs.org/d3/-/d3-7.8.2.tgz"
   "version" "7.8.2"
@@ -2994,14 +2994,6 @@
     "d3-timer" "3"
     "d3-transition" "3"
     "d3-zoom" "3"
-
-"dagre-d3-es@7.0.8":
-  "integrity" "sha512-eykdoYQ4FwCJinEYS0gPL2f2w+BPbSLvnQSJ3Ye1vAoPjdkq6xIMKBv+UkICd3qZE26wBKIn3p+6n0QC7R1LyA=="
-  "resolved" "https://registry.npmjs.org/dagre-d3-es/-/dagre-d3-es-7.0.8.tgz"
-  "version" "7.0.8"
-  dependencies:
-    "d3" "^7.8.2"
-    "lodash-es" "^4.17.21"
 
 "dagre-d3-es@7.0.9":
   "integrity" "sha512-rYR4QfVmy+sR44IBDvVtcAmOReGBvRCWDpO2QjYwqgh9yijw6eSHBqaPG/LIOEy7aBsniLvtMW6pg19qJhq60w=="
@@ -4651,10 +4643,10 @@
   "resolved" "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
   "version" "1.4.1"
 
-"mermaid@^10.0.2":
-  "integrity" "sha512-slwoB9WdNUT+/W9VhxLYRLZ0Ey12fIE+cAZjm3FmHTD+0F1uoJETfsNbVS1POnvQZhFYzfT6/z6hJZXgecqVBA=="
-  "resolved" "https://registry.npmjs.org/mermaid/-/mermaid-10.0.2.tgz"
-  "version" "10.0.2"
+"mermaid@^9.1.2", "mermaid@^9.1.7":
+  "integrity" "sha512-TLkQEtqhRSuEHSE34lh5bCa94KATCyluAXmFnNI2PRZwOpXFeqiJWwZl+d2CcemE1RS6QbbueSSq9QIg8Uxcyw=="
+  "resolved" "https://registry.npmjs.org/mermaid/-/mermaid-9.4.3.tgz"
+  "version" "9.4.3"
   dependencies:
     "@braintree/sanitize-url" "^6.0.0"
     "cytoscape" "^3.23.0"
@@ -4672,27 +4664,6 @@
     "ts-dedent" "^2.2.0"
     "uuid" "^9.0.0"
     "web-worker" "^1.2.0"
-
-"mermaid@^9.1.2":
-  "integrity" "sha512-4PWbOND7CNRbjHrdG3WUUGBreKAFVnMhdlPjttuUkeHbCQmAHkwzSh5dGwbrKmXGRaR4uTvfFVYzUcg++h0DkA=="
-  "resolved" "https://registry.npmjs.org/mermaid/-/mermaid-9.4.0.tgz"
-  "version" "9.4.0"
-  dependencies:
-    "@braintree/sanitize-url" "^6.0.0"
-    "cytoscape" "^3.23.0"
-    "cytoscape-cose-bilkent" "^4.1.0"
-    "cytoscape-fcose" "^2.1.0"
-    "d3" "^7.0.0"
-    "dagre-d3-es" "7.0.8"
-    "dompurify" "2.4.3"
-    "elkjs" "^0.8.2"
-    "khroma" "^2.0.0"
-    "lodash-es" "^4.17.21"
-    "moment" "^2.29.4"
-    "non-layered-tidy-tree-layout" "^2.0.2"
-    "stylis" "^4.1.2"
-    "ts-dedent" "^2.2.0"
-    "uuid" "^9.0.0"
 
 "methods@~1.1.2":
   "integrity" "sha512-iclAHeNqNm68zFtnZ0e+1L2yUIdvzNoauKU4WBA3VvH/vPFieF7qfRlwUZU+DA9P9bPXIS90ulxoUoCH23sV2w=="
@@ -4878,11 +4849,6 @@
   "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
-
-"moment@^2.29.4":
-  "integrity" "sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w=="
-  "resolved" "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
-  "version" "2.29.4"
 
 "ms@^2.0.0", "ms@^2.1.1", "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="
